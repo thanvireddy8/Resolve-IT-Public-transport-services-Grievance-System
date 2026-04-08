@@ -1,0 +1,68 @@
+.department-dashboard {
+  background: #111;
+  color: #e5e7eb;
+  min-height: 100vh;
+  padding: 2rem;
+}
+.cards {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.card {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+.filter {
+  margin-bottom: 1rem;
+}
+.complaints-table {
+  width: 100%;
+  background: #222;
+  color: #fff;
+  border-collapse: collapse;
+}
+.complaints-table th, .complaints-table td {
+  border: 1px solid #333;
+  padding: 0.5rem;
+}
+.complaints-table th {
+  background: #333;
+}
+button {
+  background: #222;
+  color: #e5e7eb;
+  border: 1px solid #333;
+  margin: 0 2px;
+  padding: 0.3rem 0.7rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+button:hover {
+  background: #333;
+  color: #fff;
+}
+.modal {
+  position: fixed;
+  top: 30%;
+  left: 40%;
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  z-index: 1000;
+  box-shadow: 0 0 10px #222;
+}
+textarea {
+  width: 100%;
+  min-height: 60px;
+  margin-bottom: 0.5rem;
+  background: #111;
+  color: #e5e7eb;
+  border: 1px solid #333;
+  border-radius: 4px;
+}

@@ -1,0 +1,71 @@
+ .department-dashboard {
+  background: #111;
+  color: #22c55e;
+  min-height: 100vh;
+  padding: 2rem;
+}
+.cards {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.card {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+.filter {
+  margin-bottom: 1rem;
+}
+.complaints-table {
+  width: 100%;
+  background: #222;
+  color: #fff;
+  border-collapse: collapse;
+}
+.complaints-table th, .complaints-table td {
+  border: 1px solid #333;
+  padding: 0.5rem;
+}
+.complaints-table th {
+  background: #333;
+}
+.department-dashboard button {
+  background: #22c55e;
+  color: #111;
+  border: none;
+  margin: 0 2px;
+  padding: 0.3rem 0.7rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.department-dashboard button:hover {
+  background: #16a34a;
+  color: #fff;
+}
+ .modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #222;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #22c55e33, 0 0 40px #22c55e22;
+  z-index: 1000;
+}
+ .modal textarea {
+  width: 100%;
+  min-height: 80px;
+  margin-bottom: 1rem;
+  background: #111;
+  color: #22c55e;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 0.5rem;
+}
