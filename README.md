@@ -75,14 +75,15 @@ It allows users to raise complaints, track status, and provide feedback, while a
 ```bash
 git clone https://github.com/your-username/resolve-it.git
 
-## 2. Backend Setup
+### 2. Backend Setup
 
 ```bash
 cd resolve-it-backend
 mvn spring-boot:run
 
-## 3. Frontend Setup
+### 3. Frontend Setup
 
+```bash
 cd resolve-it (1)
 npm install
 npm run dev
